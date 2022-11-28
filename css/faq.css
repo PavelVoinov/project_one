@@ -1,0 +1,130 @@
+.faq {
+    background-color: #EF7F1A;
+    border-radius: 7px;
+    padding-bottom: 63px;
+    margin-bottom: 77.5px;
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.faq__item {
+    position: relative;
+    width: 998px;
+    margin-left: 101px;
+    margin-bottom: 14px;
+    /* padding-left: 19px; */
+    padding-top: 31.5px;
+    padding-bottom: 29.5px;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2F2F51;
+    line-height: 21px;
+    list-style: none;
+}
+
+.faq__item:hover {
+    color:#EF7F1A;
+}
+
+.faq__item img {
+    position: absolute;
+    top: 36px;
+    right: 32px;
+}
+
+.item__answer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color:black;
+    margin-top: 25px;
+    margin-left: 19px;
+}
+
+summary::marker {
+    color:#fff;
+}
+
+footer {
+    background-color: #2F2F51;
+    height: 146px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer__img {
+    margin-top: 52px;
+}
+
+.footer-item {
+    margin-top: 66px;
+}
+
+.footer__company {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 435px;
+    color: white;
+    margin-left: 22px;
+}
+
+.footer__politics {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__agree {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .faq {
+        width: 880px;
+        margin-top: 30px;
+        margin-bottom: 84px;
+        margin-left: 56px;
+    }
+
+    .faq__item {
+        width: 800px;
+        margin-left: 40px;
+    }
+
+    footer {
+        width: 992px;
+    }
+
+    .footer__img {
+        margin-left: 56px;
+    }
+
+    .footer__company {
+        margin-left: 22px;
+        margin-right: 113px;
+    }
+}

@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 95px;
+    width: 100%;
+}
+
+.logo {
+    width: 89.5px;
+    height: 63px;
+    margin: 17px 44.5px 17px 0px;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    margin-top: 40.5px;
+    margin-bottom: 39.5px;
+    width: 703px;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons__request {
+    width: 103px;
+    height: 15px;
+    background: #EF7F04;
+    border-radius: 3px;
+    padding: 12px 19px 13px 47px;
+    margin: 28.5px 14px 28.5px 13px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons__order {
+    width: 102px;
+    height: 15px;
+    background: #3B3A63;
+    border-radius: 3px;
+    text-align: center;
+    padding: 12px 19px 13px 47px;
+    margin: 28.5px 0px 28.5px 14px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.services_header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.services_blocks {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.services_block_1 {
+    width: 595px;
+    height: 268px;
+    background-image: url("./images/bg_installation.svg")
+}
+
+.services_block_2 {
+    width: 595px;
+    height: 268px;
+    background-image: url("./images/bg_balconies.svg")
+}
+
+.services_block_3 {
+    width: 595px;
+    height: 268px;
+    background-image: url("./images/bg_cottages.svg")
+}
+
+.services_block_4 {
+    width: 595px;
+    height: 268px;
+    background-image: url("./images/bg_offices.svg")
+}
+
+.services_block_text {
+    width: 303px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    background: none;
+}
+
+.services_block_1_1 {
+    width: 211px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F2F51;
+}
+
+.services_block_1_2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2F2F51;
+}

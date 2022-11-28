@@ -1,0 +1,69 @@
+.sections-title {
+    text-align: center;
+    font-size: 24px;
+    color: #2F2F51;
+    margin-bottom: 50px;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 49%;
+    margin-bottom: 25px;
+    padding: 55px 0px 45px 50px;
+    border-radius: 3px;
+}
+
+.card1 {
+    background: url('../images/services-fon1.jpg');
+}
+
+.card2 {
+    background: url('../images/services-fon2.jpg');
+}
+
+.card3 {
+    background: url('../images/services-fon3.jpg');
+}
+
+.card4 {
+    background: url('../images/services-fon4.jpg');
+}
+
+.card__top {
+    display: flex;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+.card__title {
+    margin-left: 20px;
+    font-size: 24px;
+    color:#2F2F51;
+    font-weight: 700;
+    width: 211px;
+}
+
+.card__description {
+    width: 303px;
+}
+
+@media screen and (max-width: 992px) {
+    .sections-title {
+        margin-bottom: 50px;
+    }
+
+    .services-cards {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 38px;
+    }
+}

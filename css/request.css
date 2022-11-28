@@ -1,0 +1,137 @@
+.request {
+    width: 100vw;
+    height: 612px;
+    background-image: url(../images/request-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.container.request {
+    display: flex;
+    justify-content: center;
+}
+
+.request__description {
+    width: 575px;
+    margin: 131px 50px 131px 110px;
+}
+
+.description__top_orange {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EF7F04;
+    line-height: 28px;
+}
+
+.description__top_white {
+    font-size: 36px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 48px;
+}
+
+.description__bot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 18px;
+}
+
+.description__bot-item {
+    width: 26%;
+    margin-top: 20px;
+}
+
+.request__form {
+    position: relative;
+    width: 406px;
+    height: 428px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 64px;
+}
+
+.request__title {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #2F2F51;
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 27px;
+}
+
+.form__inputs {
+    width: 322.5px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.form__agree {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form__inputs_mark {
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+.inputs__agree {
+    width: 288px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.request__button {
+    width: 200px;
+    height: 55px;
+    margin-left: 103px;
+    margin-right: 103px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #EF7F04;
+    color: #fff;
+    font-weight: 700;
+    line-height: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.request__tape {
+    position: absolute;
+    bottom: -80px;
+    right: -135px;
+}
+
+@media screen and (max-width: 992px) {
+    .request {
+        width: 992px;
+        height: 562px;
+        background-size: auto;
+        margin-bottom: 48px;
+    }
+
+    .container.request {
+        justify-content: left;
+    }
+
+    .request__description {
+        margin-left: 77px;
+    }
+
+    .request__form {
+        display: none;
+    }
+}
